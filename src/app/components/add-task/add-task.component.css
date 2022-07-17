@@ -1,0 +1,47 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  animation: 0.5s fadeIn;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  min-height: 40px;
+  padding-left: 8px;
+  outline: none;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.form-control-check {
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-control-check label {
+  margin-right: 10px;
+}
